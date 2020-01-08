@@ -11,6 +11,7 @@ The submission version of DRLND 2nd project (continuous control) solved with DDP
 ### 3) Reward
 * Reward +0.1 is given for each step the reacher has its end within the moving sphere.
 * The max time step of one episode consists of 1000 steps.
+* Environment is considered solved when the average reward for 100 episodes becomes larger than 30.
 
 ## Getting Started
 
