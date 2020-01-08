@@ -5,11 +5,16 @@ The submission version of DRLND 2nd project (continuous control) solved with DDP
 ## Environment
 
 ### 1) States
-
+* Vector observation space size is 33
 ### 2) Actions
+* Action size is 4
+
 
 ## Getting Started
 
 ### 1) Instruction for Installing Dependencies
+from unityagents import UnityEnvironment
+env = UnityEnvironment(file_name='/data/Reacher_Linux_NoVis/Reacher.x86_64')
 
 ### 2) How to Run Code
+Run Jupyter notebook 'Continuous_Control.ipynb' for both training and saving after problem is solved.
